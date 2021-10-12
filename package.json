@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "This is our first node package",
+  "main": "index.js",
+  "scripts": {
+    "my-start": "node index.js",
+    "dubeyji": "node -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankur",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9"
+  }
+}
